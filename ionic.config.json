@@ -1,5 +1,7 @@
 {
   "name": "movi",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

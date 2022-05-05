@@ -1,0 +1,16 @@
+<ion-content >
+  <table *ngIf="horario">
+    <tr class="border-bottom">
+      <th>Linea</th>
+      <th>Tiempo</th>
+    </tr>
+    <tr>
+      <td>{{horario.row1.desc}}</td>
+      <td>{{horario.row1.tiempo}}</td>
+    </tr>
+    <tr>
+      <td>{{horario.row2.desc}}</td>
+      <td>{{horario.row2.tiempo}}</td>
+    </tr>
+  </table>
+</ion-content>

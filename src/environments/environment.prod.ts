@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  API_URI: "http://www.etr.gov.ar/ajax/cuandollega/",
 };

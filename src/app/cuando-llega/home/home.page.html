@@ -1,0 +1,5 @@
+<ion-list>
+  <ion-item *ngFor="let linea of lineas">
+    <ion-label [routerLink]="linea.id">{{ linea.name }}</ion-label>
+  </ion-item>
+</ion-list>

@@ -1,0 +1,9 @@
+{
+  "/api/*": {
+      "target": "http://www.etr.gov.ar/ajax/cuandollega/",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api": "" }
+  }
+}
